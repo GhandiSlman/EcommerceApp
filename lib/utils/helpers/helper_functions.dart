@@ -11,7 +11,7 @@ class THelperFunctions {
       return Colors.green;
     } else if (value == 'Red') {
       return Colors.red;
-    } else if (value == 'Blue') {
+    } else if (value == 'Blue') { 
       return Colors.blue;
     } else if (value == 'Pink') {
       return Colors.pink;
