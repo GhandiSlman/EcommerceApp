@@ -1,5 +1,5 @@
-import 'package:eco_app/common/widgets/form_divider.dart';
-import 'package:eco_app/common/widgets/social_buttons.dart';
+import 'package:eco_app/common/widgets/login_signup/form_divider.dart';
+import 'package:eco_app/common/widgets/login_signup/social_buttons.dart';
 import 'package:eco_app/features/auth/screens/signup/widgets/signup_form.dart';
 import 'package:eco_app/utils/constants/sizes.dart';
 import 'package:eco_app/utils/constants/text_strings.dart';

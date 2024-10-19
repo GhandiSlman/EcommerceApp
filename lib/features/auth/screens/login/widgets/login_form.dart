@@ -1,3 +1,4 @@
+import 'package:eco_app/features/auth/screens/password_configration/forget_password.dart';
 import 'package:eco_app/utils/constants/sizes.dart';
 import 'package:eco_app/utils/constants/text_strings.dart';
 import 'package:flutter/material.dart';
@@ -45,7 +46,10 @@ class LoginForm extends StatelessWidget {
                 ],
               ),
               TextButton(
-                  onPressed: () {}, child: const Text(TTexts.forgetPassword))
+                  onPressed: () {
+                    Get.to(() => const ForgetPasswordScreen());
+                  },
+                  child: const Text(TTexts.forgetPassword))
             ],
           ),
           const SizedBox(

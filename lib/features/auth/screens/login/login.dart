@@ -1,6 +1,6 @@
 import 'package:eco_app/common/styles/spacing_style.dart';
-import 'package:eco_app/common/widgets/form_divider.dart';
-import 'package:eco_app/common/widgets/social_buttons.dart';
+import 'package:eco_app/common/widgets/login_signup/form_divider.dart';
+import 'package:eco_app/common/widgets/login_signup/social_buttons.dart';
 import 'package:eco_app/features/auth/screens/login/widgets/login_form.dart';
 import 'package:eco_app/features/auth/screens/login/widgets/login_header.dart';
 import 'package:eco_app/utils/constants/sizes.dart';
